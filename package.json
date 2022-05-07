@@ -1,0 +1,29 @@
+{
+  "name": "WAGWMD",
+  "version": "1.0.0",
+  "description": "Whatsapp Gateway Multi device",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "WA",
+    "GATEWAY"
+  ],
+  "author": "Dekate",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.1.0",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "moment": "^2.29.2",
+    "mysql2": "^2.3.3",
+    "qrcode": "^1.5.0",
+    "socket.io": "^4.4.1"
+  }
+}
